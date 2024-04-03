@@ -26,15 +26,15 @@ Users should be able to:
 ### Screenshot
 
   ## Desktop 
-  ![]()
+  ![](./screenshots/desktop.png)
 
   ## Mobile 
-  ![]()
+  ![](./screenshots/mobile.png)
 
 
 ### Links
 
-- Solution URL: [solution]()
+- Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Notifications-page)
 - Live Site URL: [live site]()
 
 ## My process
