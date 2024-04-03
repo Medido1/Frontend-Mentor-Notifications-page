@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<body>
+  <div class="main_container">
+    <header class="header">
+      <div class="header__left">
+        <h1>Notifications</h1>
+        <p class="notifications_number">3</p>
+      </div>
+      <button class="btn read">Mark all as read</button>
+    </header>
+    <main class="main">
+      <div class="notificaitons">
+        <div class="notif read">
+          <div class="notif__top">
+            <img src="./images/avatar-mark-webber.webp" alt="avatar-mark-webber" class="avatar">
+            <div class="notif__content">
+              <b class="notif__name">Mark Webber</b>
+              <p class="notif__text">reacted to your recent post</p>
+              <a href="#" class="notif__post"> My first tournament today!</a>
+              <div class="circle read"></div>
+              <p class="notif__time">1m ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="notif read">
+          <div class="notif__top">
+            <img src="./images/avatar-angela-gray.webp" alt="avatar-angela-gray" class="avatar">
+            <div class="notif__content">
+              <b class="notif__name">Angela Gray</b>
+              <p class="notif__text">Angela Gray followed you</p>
+              <div class="circle read"></div>
+              <p class="notif__time">5m ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="notif read">
+          <div class="notif__top">
+            <img src="./images/avatar-jacob-thompson.webp" alt="avatar-jacob-thompson" class="avatar">
+            <div class="notif__content">
+              <b class="notif__name">Jacob Thompson</b>
+              <p class="notif__text">has joined your group <a href="#" class="club_link">Chess club</a></p>
+              <div class="circle read"></div>
+              <p class="notif__time">1 day ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="notif">
+          <div class="notif__top">
+            <img src="./images/avatar-rizky-hasanuddin.webp" alt="avatar-rizky-hasanuddin" class="avatar">
+            <div class="notif__content">
+              <b class="notif__name">Rizky Hasanuddin</b>
+              <p class="notif__text">sent you a private message</p>
+              <div class="circle"></div>
+              <p class="notif__time">5 days ago</p>
+            </div>
+          </div>
+          <div class="private_msg_container">
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </div>
+          <div class="notif">
+            <div class="notif__top">
+              <img src="./images/avatar-kimberly-smith.webp" alt="avatar-kimberly-smith" class="avatar">
+              <div class="notif__content">
+                <b class="notif__name">Kimberly Smith</b>
+                <p class="notif__text">commented on your picture</p>
+                <div class="circle"></div>
+                <p class="notif__time">1 week ago</p>
+              </div>
+              <img src="./images/image-chess.webp" alt="" class="your_pic">
+            </div>
+            
+          </div>
+          <div class="notif">
+            <div class="notif__top">
+              <img src="./images/avatar-nathan-peterson.webp" alt="avatar-nathan-peterson" class="avatar">
+              <div class="notif__content">
+                <b class="notif__name">Nathan Peterson</b>
+                <p class="notif__text">reacted to your recent post</p>
+                <a href="#" class="notif__post">5 end-game strategies to increase your win rate</a>
+                <div class="circle"></div>
+                <p class="notif__time">2 weeks ago</p>
+            </div>
+            </div>
+          </div>
+          <div class="notif">
+            <div class="notif__top">
+              <img src="./images/avatar-anna-kim.webp" alt="avatar-anna-kim" class="avatar">
+              <div class="notif__content">
+                <b class="notif__name">Anna Kim</b>
+                <p class="notif__text">left the group Chess Club</p>
+                <a href="#" class="club_link">Chess club</a>
+                <div class="circle"></div>
+                <p class="notif__time">2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+  /* # Font */
+  --font_family : "Plus Jakarta Sans", sans-serif;
+  --regular_font_weight: 500;
+  --bold_font_weight: 800;
+
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --Red: hsl(1, 90%, 64%);
+  --Blue: hsl(219, 85%, 26%);
+
+  /* ### Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Very_light_grayish_blue: hsl(210, 60%, 98%);
+  --Light_grayish_blue_1: hsl(211, 68%, 94%);
+  --Light_grayish_blue_2: hsl(205, 33%, 90%);
+  --Grayish_blue: hsl(219, 14%, 63%);
+  --Dark_grayish_blue: hsl(219, 12%, 42%);
+  --Very_dark_blue: hsl(224, 21%, 14%);
+}
+
+/* Css reset */
+*,::before,::after {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;  /* Improve text rendering */
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* document styling */
+
+body {
+  min-height: 100vh;
+  background-color: var(--Very_light_grayish_blue);
+  font-family: var(--font_family);
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container {
+  background-color: var(--White);
+  max-width: 750px;
+  border-radius: .5rem;
+}
+
+body,
+.header,
+.header__left,
+.notif,
+.notif__top{
+  display: flex;
+}
+
+.header,
+.header__left {
+  align-items: center;
+}
+
+.header {
+  padding: 1.25rem;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.header__left {
+  gap: .5em;
+}
+
+.notifications_number {
+  background-color: var(--Blue);
+  color: var(--White);
+  padding: .25em .75em;
+  border-radius: .5em;
+  font-weight: var(--bold_font_weight);
+}
+
+.btn.read {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  color: var(--Dark_grayish_blue);
+  font-size: 1.125rem;
+}
+
+.main {
+  padding: 1rem;
+}
+
+.notificaitons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.notif {
+  flex-direction: column;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.notif__name:hover,
+.notif__post:hover,
+.btn.read:hover {
+  color: var(--Blue);
+}
+
+.notif__top{
+  gap: .75rem;
+}
+
+.notif__name {
+  margin-right: 1rem;
+}
+
+.notificaitons a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.notif__post {
+  color: var(--Very_dark_blue);
+}
+
+.notif.read {
+  background-color: var(--Light_grayish_blue_2);
+  border-radius: .5rem;
+}
+
+.notif__top {
+  padding: 1rem;
+}
+
+.circle.read{
+  margin-left: .5rem;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: red; 
+  border-radius: 50%; 
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.notif__name,
+.notif__text {
+  display: inline;
+}
+
+.notif__text {
+  opacity: 70%;
+}
+
+.notif__time {
+  opacity: 50%;
+}
+
+.club_link {
+  color: var(--Blue);
+  font-weight: var(--bold_font_weight);
+}
+
+.private_msg_container {
+  border: 1px solid var(--Light_grayish_blue_2);
+  padding: 1rem;
+  border-radius: .5rem;
+  width: 80%;
+  opacity: 70%;
+  margin-left: 55px;
+}
+
+.private_msg_container:hover {
+  background-color: var(--Light_grayish_blue_2);
+}
+
+.your_pic {
+  width: 40px;
+  height: 40px;
+}
