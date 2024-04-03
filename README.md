@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Notifications-page)
-- Live Site URL: [live site]()
+- Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Notifications-page);
+- Live Site URL: [live site](https://medido1.github.io/Frontend-Mentor-Notifications-page/);
 
 ## My process
 
